@@ -8,8 +8,7 @@ then
     log=$(ncu -u)
 
     FILENAME=$(date +%Y%m%d%H%M%S).txt
-    touch ./logs/${FILENAME}
-    echo ${log} >> ./logs/${FILENAME}
+    echo ${log} >> ~/Documents/GitHub/hardhat-dev-settings/logs/${FILENAME}
 
 else
     echo "already updated"
