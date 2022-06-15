@@ -12,7 +12,7 @@ then
     echo ${log} >> ~/Documents/GitHub/hardhat-dev-settings/logs/${FILENAME}
 
     git add .
-    git commit -m "update script"
+    git commit -m "update packages"
     git push
     git checkout main
 else
