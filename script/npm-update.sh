@@ -14,7 +14,9 @@ then
     git add .
     git commit -m "update packages"
     git push
-    git checkout main
+
 else
     echo "already updated"
 fi
+
+git checkout main
